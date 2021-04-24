@@ -8,6 +8,10 @@ module SpreeItIsAPresent
 
         accepts_nested_attributes_for :present_note
       end
+
+      def present_note_with_default
+        present_note || build_present_note
+      end
     end
   end
 end
