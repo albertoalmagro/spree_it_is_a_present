@@ -4,6 +4,8 @@
 es:
   spree:
     it_is_a_present:
+      admin:
+        header: Este pedido es un regalo
       form:
         checkbox_label: Enviar como regalo
         dedication: Dedicatoria

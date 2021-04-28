@@ -4,6 +4,8 @@
 de:
   spree:
     it_is_a_present:
+      admin:
+        header: Widmungsdetails
       form:
         checkbox_label: Als Geschenk absenden
         dedication: Widmung

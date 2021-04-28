@@ -4,6 +4,8 @@
 en:
   spree:
     it_is_a_present:
+      admin:
+        header: This order is a present
       form:
         checkbox_label: Send as a present
         dedication: Dedication
