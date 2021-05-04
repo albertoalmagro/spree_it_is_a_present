@@ -1,13 +1,13 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
-en:
+de:
   spree:
     it_is_a_present:
       admin:
-        header: This order is a present
+        header: Diese Bestellung ist ein Geschenk
       form:
-        checkbox_label: Send as a present
-        dedication: Dedication
-        header: Is it a present?
-        recipient_name: Recipient name
+        checkbox_label: Als Geschenk absenden
+        dedication: Widmung
+        header: Ist es ein Geschenk?
+        recipient_name: Name der Empfängerin / Name des Empfängers

@@ -1,0 +1,13 @@
+<div data-hook="spree_it_is_a_present_wrapper" class="col-12">
+  <div class="card mb-3">
+    <div class="card-header">
+      <h1 class="card-title mb-0 h5"><%= Spree.t('it_is_a_present.admin.header') %></h1>
+    </div>
+
+    <div class="card-body">
+      <%= f.fields_for :present_note, @order.present_note_with_default do |present_note_form| %>
+        <%= render 'spree/admin/shared/present_note_form', f: present_note_form %>
+      <% end %>
+    </div>
+  </div>
+</div>

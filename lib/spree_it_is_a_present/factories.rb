@@ -1,6 +1,6 @@
 FactoryBot.define do
-  # Define your Spree extensions Factories within this file to enable applications, and other extensions to use and override them.
-  #
-  # Example adding this to your spec_helper will load these Factories for use:
-  # require 'spree_it_is_a_present/factories'
+  factory :present_note, class: 'Spree::PresentNote' do
+    recipient_name { 'María' }
+    dedication     { 'This is a present for you' }
+  end
 end

@@ -9,10 +9,6 @@ module SpreeItIsAPresent
       g.test_framework :rspec
     end
 
-    initializer 'spree_it_is_a_present.environment', before: :load_config_initializers do |_app|
-      SpreeItIsAPresent::Config = SpreeItIsAPresent::Configuration.new
-    end
-
     def self.activate
       Dir.glob(File.join(File.dirname(__FILE__), '../../app/**/*_decorator*.rb')) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)

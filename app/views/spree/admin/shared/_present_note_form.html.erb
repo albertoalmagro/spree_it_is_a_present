@@ -1,0 +1,11 @@
+<div data-hook="present_note_fields">
+  <div class="form-group">
+    <%= f.label :recipient_name, Spree.t('it_is_a_present.form.recipient_name') %>
+    <%= f.text_field :recipient_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :dedication, Spree.t('it_is_a_present.form.dedication') %>
+    <%= f.text_area :dedication, class: 'form-control' %>
+  </div>
+</div>
