@@ -2,6 +2,16 @@
 
 With `spree_it_is_a_present` your customers will be able to add a name and a dedication to properly give your products as a present.
 
+## Versions and Spree
+
+The following table shows the compatibility between `spree` and  `spree_it_is_a_present` gem versions.
+
+| Spree version | spree_it_is_a_present|
+|:-------------:|:--------------------:|
+| <= 4.3.2      | 0.0.3                |
+| 4.4.0         | 0.0.4                |
+| >= 4.5.0      | To be released soon  |
+
 ## Installation
 
 1. Add this extension to your Gemfile with this line:
@@ -26,7 +36,7 @@ With `spree_it_is_a_present` your customers will be able to add a name and a ded
 
   If your server was running, restart it so that it can find the assets properly.
 
-5. If you are using [Spree frontend](https://github.com/spree/spree/tree/master/frontend), you should see the form added by this gem at the address step during checkout. In the backend, the data provided by the frontend form will be displayed within the Order's client information.
+5. If you are using [Spree Rails Frontend](https://github.com/spree/spree_rails_frontend), you should see the form added by this gem at the address step during checkout. In the backend, the data provided by the frontend form will be displayed within the Order's client information.
 
 ## Testing
 
