@@ -9,8 +9,9 @@ The following table shows the compatibility between `spree` and  `spree_it_is_a_
 | Spree version | spree_it_is_a_present|
 |:-------------:|:--------------------:|
 | <= 4.3.2      | 0.0.3                |
-| 4.4.0         | 0.0.4                |
-| >= 4.5.0      | To be released soon  |
+| 4.4.x         | 0.0.4                |
+| 4.5.x         | 0.0.5                |
+| >= 4.6.0      | To be released soon  |
 
 ## Installation
 
