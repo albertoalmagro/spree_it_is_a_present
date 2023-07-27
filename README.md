@@ -11,7 +11,7 @@ The following table shows the compatibility between `spree` and  `spree_it_is_a_
 | <= 4.3.2      | 0.0.3                |
 | 4.4.x         | 0.0.4                |
 | 4.5.x         | 0.0.5                |
-| >= 4.6.0      | To be released soon  |
+| 4.6.x         | 0.0.6                |
 
 ## Installation
 
